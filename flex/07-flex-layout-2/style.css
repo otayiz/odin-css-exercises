@@ -17,6 +17,26 @@ body {
   font-weight: 900;
 }
 
+.main {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+  font: 24px;;
+}
+
+.sidebar {
+  width: 300px;
+  flex-shrink: 0;
+  padding: 16px;
+}
+
 .footer {
   height: 72px;
   background: #eee;
